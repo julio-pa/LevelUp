@@ -11,7 +11,7 @@ export default function Task({ task }: Props) {
         {task.content.map(({ content, exp }, index) => (
           <div key={index} className="flex justify-between">
             <p>{content}</p>
-            <p>{exp}</p>
+            <p className="bg-orange-500 px-3 rounded-2xl">+ {exp}</p>
           </div>
         ))}
       </div>

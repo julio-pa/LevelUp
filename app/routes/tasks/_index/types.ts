@@ -8,4 +8,5 @@ export type SubTask = {
   id: string;
   content: string;
   exp: number;
+  isDone: false;
 };
